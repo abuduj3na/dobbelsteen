@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:dobbelsteen"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="IndianRed">
+        <TextBox x:Name="rollTextBox" HorizontalAlignment="Left" Margin="212,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Height="180"/>
+        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Margin="527,197,0,0" VerticalAlignment="Top" Width="60" Foreground="IndianRed" Click="startButton_Click" />
+        <Button x:Name="repeatButton" Content="Opnieuw" HorizontalAlignment="Left" Margin="527,226,0,0" VerticalAlignment="Top" Width="60" Foreground="IndianRed" Click="repeatButton_Click"/>
+        <Button x:Name="closeButton" Content="Sluiten" HorizontalAlignment="Left" Margin="527,253,0,0" VerticalAlignment="Top" Width="60" Foreground="IndianRed" Click="closeButton_Click"/>
 
     </Grid>
 </Window>
