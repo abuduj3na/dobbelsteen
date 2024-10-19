@@ -32,7 +32,7 @@ namespace dobbelsteen
             while(number != 6)
             {
                 numberRoll++;
-                number = random.Next(0,7);
+                number = random.Next(1,7);
                 rollTextBox.Text += $"Worp {numberRoll} geeft " + $"{number}\n";
             }
         }
