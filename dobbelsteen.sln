@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dobbelsteen", "dobbelsteen\dobbelsteen.csproj", "{B2794D8A-18A3-406E-B982-5B590C548ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2794D8A-18A3-406E-B982-5B590C548ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2794D8A-18A3-406E-B982-5B590C548ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2794D8A-18A3-406E-B982-5B590C548ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2794D8A-18A3-406E-B982-5B590C548ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0929B0BE-9E99-4A23-B723-5AFD21162A49}
+	EndGlobalSection
+EndGlobal
